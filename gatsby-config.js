@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Brandon Gore`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Brandon Gore`,
+      summary: `, a blog about experiments, learning and other interesting ideas.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog in the pursuit of knowledge`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      linkedin: `https://www.linkedin.com/in/brandon-gore-5a1b4762/`,
     },
   },
   plugins: [
