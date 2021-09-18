@@ -1,7 +1,7 @@
 ---
-title: Hello World
+title: A blogs beginnings
 date: "2021-09-18T22:37:00.000Z"
-description: "Hello World"
+description: "first post"
 ---
 
 This is my first blog post.

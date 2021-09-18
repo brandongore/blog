@@ -32,7 +32,25 @@ const Bio = () => {
 
   return (
     <div className="bio">
-      <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="brandon-gore-5a1b4762" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://za.linkedin.com/in/brandon-gore-5a1b4762?trk=profile-badge">Brandon Gore</a></div>    
+      <StaticImage
+        className="bio-avatar"
+        layout="fixed"
+        formats={["auto", "webp", "avif"]}
+        src="../images/profile-pic.png"
+        width={50}
+        height={50}
+        quality={95}
+        alt="Profile picture"
+      />
+      {author?.name && (
+        <p>
+          Written by <strong>{author.name}</strong> {author?.summary || null}
+          {` `}
+          <a href={`https://www.linkedin.com/in/${social?.linkedin || ``}`}>
+            Linkedin
+          </a>
+        </p>
+      )}
     </div>
   )
 }
